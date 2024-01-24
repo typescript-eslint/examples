@@ -1,0 +1,21 @@
+{
+  "name": "typescript-estree-standalone",
+  "version": "0.0.0",
+  "description": "Example of using `@typescript-eslint/typescript-estree` with type information on its own.",
+  "main": "index.ts",
+  "repository": "https://github.com/typescript-eslint/typescript-eslint-examples",
+  "license": "MIT",
+  "dependencies": {
+    "@typescript-eslint/typescript-estree": "^6.19.1",
+    "ts-api-utils": "^1.0.3",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.6",
+    "tsx": "^4.7.0"
+  },
+  "scripts": {
+    "example": "tsx index.ts"
+  },
+  "type": "module"
+}
