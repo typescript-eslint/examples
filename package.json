@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Various examples of working with typescript-eslint. 📝",
   "main": "index.js",
-  "repository": "https://github.com/typescript-eslint/typescript-eslint-examples",
+  "repository": "typescript-eslint/typescript-eslint-examples",
   "author": "Josh Goldberg <git@joshuakgoldberg.com>",
   "license": "MIT",
   "workspaces": [

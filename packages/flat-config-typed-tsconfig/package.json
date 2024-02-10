@@ -1,0 +1,22 @@
+{
+  "name": "flat-config-typed-tsconfig",
+  "version": "0.0.0",
+  "description": "Example of using `typescript-eslint` with ESLint's flat config, type information, and a `tsconfig.eslint.json`.",
+  "main": "index.ts",
+  "repository": {
+    "directory": "packages/flat-config-typed-tsconfig",
+    "type": "git",
+    "url": "https://github.com/typescript-eslint/typescript-eslint-examples"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/eslint__js": "^8.42.3",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3",
+    "typescript-eslint": "*"
+  },
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "type": "module"
+}
