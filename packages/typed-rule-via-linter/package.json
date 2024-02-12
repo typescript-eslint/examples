@@ -3,7 +3,11 @@
   "version": "0.0.0",
   "description": "Example of using `@typescript-eslint/typescript-estree` with type information on its own.",
   "main": "index.ts",
-  "repository": "https://github.com/typescript-eslint/typescript-eslint-examples",
+  "repository": {
+    "directory": "packages/typed-rule-via-linter",
+    "type": "git",
+    "url": "https://github.com/typescript-eslint/typescript-eslint-examples"
+  },
   "license": "MIT",
   "dependencies": {
     "@typescript-eslint/parser": "^6.19.1",
