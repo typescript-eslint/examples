@@ -10,13 +10,15 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@types/eslint": "^8.56.2",
     "@types/eslint__js": "^8.42.3",
     "eslint": "^8.56.0",
     "typescript": "^5.3.3",
-    "typescript-eslint": "*"
+    "typescript-eslint": "^7.0.1"
   },
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "tsc": "tsc"
   },
   "type": "module"
 }
