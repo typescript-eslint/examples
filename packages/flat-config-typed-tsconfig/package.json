@@ -14,7 +14,7 @@
     "@types/eslint__js": "^8.42.3",
     "eslint": "^8.56.0",
     "typescript": "^5.3.3",
-    "typescript-eslint": "^7.0.1"
+    "typescript-eslint": "^7.10.0"
   },
   "scripts": {
     "lint": "eslint .",

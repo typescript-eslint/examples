@@ -9,7 +9,7 @@ export default tseslint.config(
   {
     languageOptions: {
       parserOptions: {
-        project: true,
+        EXPERIMENTAL_useProjectService: true,
       },
     },
   }
