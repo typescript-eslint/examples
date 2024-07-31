@@ -24,6 +24,7 @@ export const rule = createRule({
     docs: {
       description: "Avoid looping over enums.",
       recommended: true,
+      requiresTypeChecking: true,
     },
     messages: {
       loopOverEnum: "Do not loop over enums.",

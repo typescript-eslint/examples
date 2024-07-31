@@ -30,9 +30,11 @@ export default tseslint.config(
 
 <!-- begin auto-generated rules list -->
 
-| Name                                                   | Description               |
-| :----------------------------------------------------- | :------------------------ |
-| [no-loop-over-enums](docs/rules/no-loop-over-enums.md) | Avoid looping over enums. |
+💭 Requires [type information](https://typescript-eslint.io/linting/typed-linting).
+
+| Name                                                   | Description               | 💭 |
+| :----------------------------------------------------- | :------------------------ | :- |
+| [no-loop-over-enums](docs/rules/no-loop-over-enums.md) | Avoid looping over enums. | 💭 |
 
 <!-- end auto-generated rules list -->
 
