@@ -11,7 +11,7 @@ export const rule = createRule({
       ForInStatement(node) {
         const type = services.getTypeAtLocation(node.right);
 
-        if ((type.symbol.flags & ts.SymbolFlags.Enum) !== 0) {
+        if (type.symbol.flags & ts.SymbolFlags.Enum) {
           context.report({
             messageId: "loopOverEnum",
             node: node.right,
