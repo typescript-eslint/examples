@@ -1,18 +1,18 @@
 {
   "dependencies": {
-    "@typescript-eslint/utils": "8.0.0-alpha.59"
+    "@typescript-eslint/utils": "8.18.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.8.0",
     "@types/eslint": "^9.6.0",
     "@types/eslint__js": "^8.42.3",
     "@types/node": "^22.0.2",
-    "@typescript-eslint/rule-tester": "^8.0.0-alpha.59",
+    "@typescript-eslint/rule-tester": "8.18.0",
     "eslint": "^9.8.0",
     "eslint-doc-generator": "^1.7.1",
     "eslint-plugin-eslint-plugin": "^6.2.0",
     "typescript": "^5.5.4",
-    "typescript-eslint": "^8.0.0-alpha.59",
+    "typescript-eslint": "8.18.0",
     "vitest": "^2.0.4"
   },
   "exports": {
