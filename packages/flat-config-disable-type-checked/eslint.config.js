@@ -7,7 +7,7 @@ const unused = true;
 
 export default tseslint.config(
   eslint.configs.recommended,
-  ...tseslint.configs.recommendedTypeChecked,
+  tseslint.configs.recommendedTypeChecked,
   {
     languageOptions: {
       parserOptions: {
@@ -16,7 +16,7 @@ export default tseslint.config(
     },
   },
   {
+    extends: [tseslint.configs.disableTypeChecked],
     files: ["*.js"],
-    ...tseslint.configs.disableTypeChecked,
   }
 );

@@ -13,7 +13,7 @@ import tseslint from 'typescript-eslint';
 export default tseslint.config(
     { ignores: ["lib"] },
     eslint.configs.recommended,
-    ...tseslint.configs.recommendedTypeChecked,
+    tseslint.configs.recommendedTypeChecked,
     exampleTypedLinting.configs.recommended // 👈
     {
         languageOptions: {

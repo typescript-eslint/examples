@@ -10,14 +10,14 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@typescript-eslint/parser": "^6.19.1",
-    "@typescript-eslint/utils": "^6.19.1",
-    "eslint": "^8.56.0",
-    "typescript": "^5.3.3"
+    "@typescript-eslint/parser": "^8.18.0",
+    "@typescript-eslint/utils": "^8.18.0",
+    "eslint": "^9.16.0",
+    "typescript": "^5.7.2"
   },
   "devDependencies": {
-    "@types/eslint": "^8.56.2",
-    "tsx": "^4.7.0"
+    "@types/eslint": "^9.6.1",
+    "tsx": "^4.19.2"
   },
   "scripts": {
     "example": "tsx index.ts"
