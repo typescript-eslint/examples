@@ -18,7 +18,9 @@ export default tseslint.config(
       "@typescript-eslint/no-floating-promises": [
         "error", {
           "allowForKnownSafePromises": [
-            { "from": "package", "name": "SafePromise", "package": "@reduxjs/toolkit" }
+            { from: "package", name: "SafePromise", package: "@reduxjs/toolkit" },
+            { from: 'package', name: 'SafePromise', package: '@reduxjs/toolkit/query' },
+            { from: 'package', name: 'SafePromise', package: '@reduxjs/toolkit/query/react' },
           ]
         }
       ]
