@@ -1,0 +1,26 @@
+{
+  "name": "redux-toolkit-floating-promises",
+  "version": "0.0.0",
+  "description": "Example of using `redux-toolkit` with `@typescript-eslint/no-floating-promises`'s `allowForKnownSafePromises` option.",
+  "main": "index.ts",
+  "repository": {
+    "directory": "packages/redux-toolkit-floating-promises",
+    "type": "git",
+    "url": "https://github.com/typescript-eslint/typescript-eslint-examples"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.10.7",
+    "eslint": "^9.16.0",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.18.0"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "2.5.0"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "tsc": "tsc"
+  },
+  "type": "module"
+}
