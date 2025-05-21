@@ -1,0 +1,27 @@
+{
+  "name": "fastify-floating-promises",
+  "version": "0.0.0",
+  "description": "Example of using Fastify with `@typescript-eslint/no-floating-promises`'s `allowForKnownSafePromises` option.",
+  "main": "index.ts",
+  "repository": {
+    "directory": "packages/fastify-floating-promises",
+    "type": "git",
+    "url": "https://github.com/typescript-eslint/typescript-eslint-examples"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "eslint": "^9.27.0",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.32.1"
+  },
+  "dependencies": {
+    "@fastify/cookie": "^11.0.2",
+    "fastify": "^5.3.3"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "tsc": "tsc"
+  },
+  "type": "module"
+}
