@@ -1,6 +1,6 @@
 # Example: Flat Config and disable-type-checked
 
-An example of using the [`typescript-eslint`](https://typescript-eslint.io/packages/typescript-eslint) package to lint TypeScript code with type information.
+An example of using the [`typescript-eslint`](https://typescript-eslint.io/packages/typescript-eslint) package to lint TypeScript code with type information, disabling type checked rules on `*.js` files.
 
 ## Setup
 
