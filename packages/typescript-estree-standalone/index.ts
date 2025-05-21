@@ -6,7 +6,9 @@ import ts from "typescript";
 const { ast, services } = tsESTree.parseAndGenerateServices(
   `const hello = 'world';`,
   {
-    EXPERIMENTAL_useProjectService: true,
+    projectService: {
+      allowDefaultProject: ['estree.ts']
+    },
   }
 );
 
