@@ -7,18 +7,21 @@ For documentation on custom ESLint plugins with typescript-eslint, see: <https:/
 ```js
 // eslint.config.js
 import eslint from '@eslint/js';
-import exampleTypedLinting from 'eslint-plugin-example-typed-linting'
+import { defineConfig } from 'eslint/config';
+import exampleTypedLinting from 'eslint-plugin-example-typed-linting';
 import tseslint from 'typescript-eslint';
 
-export default tseslint.config(
-    { ignores: ["lib"] },
-    eslint.configs.recommended,
-    tseslint.configs.recommendedTypeChecked,
-    exampleTypedLinting.configs.recommended // 👈
+export default defineConfig(
+    { ignores: ['lib'] },
     {
+        extends: [
+            eslint.configs.recommended,
+            tseslint.configs.recommendedTypeChecked,
+            exampleTypedLinting.configs.recommended, // 👈
+        ],
         languageOptions: {
             parserOptions: {
-                projectService:true,
+                projectService: true,
                 tsconfigRootDir: import.meta.dirname,
             },
         },
