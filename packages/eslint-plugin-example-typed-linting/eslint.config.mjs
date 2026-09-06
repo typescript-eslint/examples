@@ -1,13 +1,16 @@
 import eslint from '@eslint/js';
+import { defineConfig } from 'eslint/config';
 import eslintPlugin from 'eslint-plugin-eslint-plugin'
 import tseslint from 'typescript-eslint';
 
-export default tseslint.config(
+export default defineConfig(
     { ignores: ["lib"] },
-    eslint.configs.recommended,
-    tseslint.configs.recommendedTypeChecked,
-    eslintPlugin.configs['flat/recommended'],
     {
+        extends: [
+            eslint.configs.recommended,
+            tseslint.configs.recommendedTypeChecked,
+            eslintPlugin.configs['flat/recommended'],
+        ],
         languageOptions: {
             parserOptions: {
                 projectService: {
